@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\2hit.png" />
+    <None Remove="Resources\arena.png" />
+    <None Remove="Resources\arrow.png" />
+    <None Remove="Resources\bar.png" />
+    <None Remove="Resources\cave.png" />
+    <None Remove="Resources\checkall.png" />
+    <None Remove="Resources\clan.png" />
+    <None Remove="Resources\clandungeon.png" />
+    <None Remove="Resources\coliseum.png" />
+    <None Remove="Resources\diamond.png" />
+    <None Remove="Resources\duel.png" />
+    <None Remove="Resources\dust.png" />
+    <None Remove="Resources\equip.png" />
+    <None Remove="Resources\exp.png" />
+    <None Remove="Resources\farm.png" />
+    <None Remove="Resources\forum_2.png" />
+    <None Remove="Resources\gmail.png" />
+    <None Remove="Resources\gold.png" />
+    <None Remove="Resources\health.png" />
+    <None Remove="Resources\lab.png" />
+    <None Remove="Resources\league.png" />
+    <None Remove="Resources\level.png" />
+    <None Remove="Resources\logout.png" />
+    <None Remove="Resources\mail.png" />
+    <None Remove="Resources\mana.png" />
+    <None Remove="Resources\quest.png" />
+    <None Remove="Resources\relic.png" />
+    <None Remove="Resources\silver.png" />
+    <None Remove="Resources\smith.png" />
+    <None Remove="Resources\telegram.png" />
+    <None Remove="Resources\timer.png" />
+    <None Remove="Resources\titanium.png" />
+    <None Remove="Resources\titanium_rest.png" />
+    <None Remove="Resources\train.png" />
+    <None Remove="Resources\update.png" />
+    <None Remove="Resources\user.png" />
+    <None Remove="Resources\youtube.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TitaniumExpress.App\TitaniumExpress.App.csproj" />
+    <ProjectReference Include="..\TitaniumExpress.Core\TitaniumExpress.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\2hit.png" />
+    <Resource Include="Resources\arena.png" />
+    <Resource Include="Resources\arrow.png" />
+    <Resource Include="Resources\bar.png" />
+    <Resource Include="Resources\cave.png" />
+    <Resource Include="Resources\checkall.png" />
+    <Resource Include="Resources\clan.png" />
+    <Resource Include="Resources\clandungeon.png" />
+    <Resource Include="Resources\coliseum.png" />
+    <Resource Include="Resources\diamond.png" />
+    <Resource Include="Resources\duel.png" />
+    <Resource Include="Resources\dust.png" />
+    <Resource Include="Resources\equip.png" />
+    <Resource Include="Resources\exp.png" />
+    <Resource Include="Resources\farm.png" />
+    <Resource Include="Resources\forum_2.png" />
+    <Resource Include="Resources\gmail.png" />
+    <Resource Include="Resources\gold.png" />
+    <Resource Include="Resources\health.png" />
+    <Resource Include="Resources\lab.png" />
+    <Resource Include="Resources\league.png" />
+    <Resource Include="Resources\level.png" />
+    <Resource Include="Resources\logout.png" />
+    <Resource Include="Resources\mail.png" />
+    <Resource Include="Resources\mana.png" />
+    <Resource Include="Resources\quest.png" />
+    <Resource Include="Resources\relic.png" />
+    <Resource Include="Resources\silver.png" />
+    <Resource Include="Resources\smith.png" />
+    <Resource Include="Resources\telegram.png" />
+    <Resource Include="Resources\timer.png" />
+    <Resource Include="Resources\titanium.png" />
+    <Resource Include="Resources\titanium_rest.png" />
+    <Resource Include="Resources\train.png" />
+    <Resource Include="Resources\update.png" />
+    <Resource Include="Resources\user.png" />
+    <Resource Include="Resources\youtube.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>

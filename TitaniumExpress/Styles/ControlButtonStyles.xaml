@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="WindowButtonHide" TargetType="Border">
+        <Setter Property="Background" Value="#D67575"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsMouseOver, ElementName=BtnHide}" Value="True">
+                <Setter  Property="Background" Value="#E7B9B9"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="WindowButtonClose" TargetType="Border">
+        <Setter Property="Background" Value="#D67575"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsMouseOver, ElementName=BtnClose}" Value="True">
+                <Setter  Property="Background" Value="#E7B9B9"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="WindowButtonMaximize" TargetType="Border">
+        <Setter Property="Background" Value="#D67575"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsMouseOver, ElementName=BtnMaximize}" Value="True">
+                <Setter  Property="Background" Value="#E7B9B9"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>
